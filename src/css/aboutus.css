@@ -127,20 +127,20 @@ p {
 
 
 /* Common */
-.container-a {
+.container {
   max-width: 375px;
   padding: 0 16px;
   margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
-  .container-a {
+  .container {
     max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .container-a {
+  .container {
     max-width: 1280px;
     padding: 0 65px;
   }
