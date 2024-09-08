@@ -147,7 +147,9 @@ p {
 }
 */
 
-
+@import url('fonts.css');
+@import url('reset.css');
+@import url('container.css');
 
 
 
@@ -234,10 +236,11 @@ p {
   .about-div {
     border-radius: 50px;
     padding: 80px 60px;
-    width: 704px;
+    width: 584px;
   }
 
   .about-text-div {
+    width: 584px;
     margin-bottom: 60px;
   }
 
@@ -272,7 +275,7 @@ p {
   margin-bottom: 40px;
 }
   .about-div {
-    width: 580px;
+    width: 460px;
 
   }
  .about-text-div {
