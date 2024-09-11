@@ -1,5 +1,5 @@
 
-.container-choose {
+ .section .container-choose{
   display: flex;
   flex-direction: column;
   padding: 60px 28px;
@@ -59,7 +59,6 @@
     padding: 80px 64px;
     gap: 32px;
   }
-  
 
 }
 
