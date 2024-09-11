@@ -1,5 +1,5 @@
 
- .section .container-choose{
+ .kaka{
   display: flex;
   flex-direction: column;
   padding: 60px 28px;
@@ -22,6 +22,7 @@
   color: #fbfbfb;
 
 }
+
 .span-choose {
   color: rgba(251, 251, 251, 0.5);
 }
@@ -54,13 +55,44 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container-choose {
+  .kaka {
     background-image: url(../img/WatchHubIMG/hand1x_tablet.png);
     padding: 80px 64px;
     gap: 32px;
   }
+  .tittle-choose {
+    font-size: 48px;
+    line-height: 0.92;
+  }
 
 }
+@media screen and (min-width: 768px) and (min-resolution: 192dpi),
+screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .kaka {
+    background-image: url(../img/WatchHubIMG/hand2x_tablet.png);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .kaka {
+    background-image: url(../img/WatchHubIMG/hand1x_desktop.png);
+    flex-direction: row;
+    padding: 83px 80px;
+    gap: 140px
+  }
+
+}
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi),
+screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .kaka {
+    background-image: url(../img/WatchHubIMG/hand2x_desktop.png);
+  }
+}
+
+
+
+
+
 
 
 
