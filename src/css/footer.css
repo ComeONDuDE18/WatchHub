@@ -195,7 +195,11 @@
     flex-wrap: nowrap;
     }
     .footer-top{
-        display: block;
+        flex-direction: row;
+        row-gap: 86px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
     .footer-item-section{
         max-width: 400px;
