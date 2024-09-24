@@ -6,6 +6,8 @@
     height: auto;
 }
 .content{
+    display: flex;
+    flex-direction: column;
     border-radius: 30px;
     padding: 40px 28px 28px 28px;
     background-color: #0C0C0C;
