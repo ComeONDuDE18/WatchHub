@@ -13,6 +13,10 @@
     background-color: #0C0C0C;
     gap: 92px;
 }
+.footer-top{
+    display: flex;
+    gap:20px;
+} 
 .footer-logo{
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
@@ -23,7 +27,6 @@
 .footer-item-icon{
     display: flex;
     gap:20px;
-    padding-bottom: 20px;
     flex-direction: column;
 }
 .footer-item{   
@@ -69,7 +72,6 @@
     opacity: 80%;
 }
 .footer-title{
-    padding-top: 40px;
     font-family: "Gilroy", sans-serif;
     color: #FBFBFB;
     opacity: 80%;
