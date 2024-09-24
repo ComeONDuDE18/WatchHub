@@ -195,11 +195,7 @@
     flex-wrap: nowrap;
     }
     .footer-top{
-        gap: 20px;
-        align-items: start;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        display: block;
     }
     .footer-item-section{
         max-width: 400px;
