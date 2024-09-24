@@ -192,7 +192,6 @@
     .footer-top{
         gap: 86px;
         align-items: start;
-        margin-bottom: 100px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -241,7 +240,6 @@
     }
     .footer-top{
         display: block;
-        margin-bottom: 126px;
     }
     .footer-titl-div{
         flex-wrap: nowrap;
