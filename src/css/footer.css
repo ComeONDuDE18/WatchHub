@@ -8,6 +8,10 @@
     padding: 40px 28px 28px 28px;
     background-color: #0C0C0C;
 }
+.footer-topt{
+    display: flex;
+    justify-content: center;
+}
 .footer-logo{
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
@@ -38,11 +42,17 @@
     transition-delay: 250ms;
     transition-duration: 250ms;
 }
-.footer-icon{
-    fill: #FBFBFB;
+.footer-link-icon{
+    display: flex;
     padding: 8px;
     border: 1px solid rgba(251, 251, 251, 0.1);
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icon{
+    width: 18px;
+    fill: #FBFBFB;
     opacity: 80%;
 }
 .footer-paragraph-link{
@@ -183,7 +193,7 @@
     .footer-title{
     max-width: 524px;
     font-weight: 600;
-    font-size: 27px;
+    font-size: 28px;
     line-height: 114%;
     padding: 0;
     display: flex;
